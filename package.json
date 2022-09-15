@@ -5,7 +5,9 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/test.js",
+    "build": "npx webpack"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Parter-f/backend09.15/issues"
   },
-  "homepage": "https://github.com/Parter-f/backend09.15#readme"
+  "homepage": "https://github.com/Parter-f/backend09.15#readme",
+  "devDependencies": {
+    "webpack-cli": "^4.10.0"
+  }
 }

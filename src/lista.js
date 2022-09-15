@@ -15,5 +15,5 @@ export function atlag(){
     sum += lista[i]
 
    }
-   console.log(sum);
+   return sum/lista.length;
 }
